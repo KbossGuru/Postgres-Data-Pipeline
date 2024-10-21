@@ -32,3 +32,7 @@ The data pipeline in Azure Data Factory is Shown below:
      
 The ERD for the lake database is shown below:
 ![ERD](ERD.png)
+
+## Additional Information
+1. Azure Key Vault was used to Secure sensitive connection strings, credentials, and secrets used by ADF and Databricks to connect to PostgreSQL and other resources.
+2. Azure Active Directory (AAD) was used to managed authentication and access control, ensuring that only authorized users and services could access Azure resources during the migration.
